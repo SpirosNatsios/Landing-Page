@@ -87,10 +87,11 @@ button {
 
 .information {
   text-align: center;
-  padding: 36px;
+  padding: 24px;
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
+  margin-top: 24px;
 }
 
 .container {
@@ -98,6 +99,8 @@ button {
   align-items: center;
   justify-content: center;
   gap: 52px;
+  height: 300px;
+  margin-bottom: 100px;
 }
 
 .info {
@@ -115,4 +118,61 @@ button {
 }
 .text {
   text-align: center;
+}
+
+.quote-container {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 112px 380px 96px;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 0;
+  font-style: italic;
+}
+
+.quote-name {
+  font-size: 24px;
+  font-weight: 900;
+  align-self: flex-end;
+}
+
+.call-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.call-container {
+  width: 964px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  display: flex;
+  border-radius: 5px;
+  margin: 86px 0;
+}
+
+.top-text {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.call-button button {
+  border: 2px solid #e5e7eb;
+}
+
+.footer {
+  height: 82px;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
