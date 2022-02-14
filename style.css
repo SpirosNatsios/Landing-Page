@@ -7,10 +7,6 @@ body {
   flex-direction: column;
   font-family: "Roboto", sans-serif;
 }
-.test {
-  background-color: royalblue;
-  height: 300px;
-}
 ul {
   list-style-type: none;
   display: flex;
@@ -43,6 +39,20 @@ button {
   font-weight: bold;
 }
 
+.hero {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 80px;
+  padding-top: 12px;
+  padding-bottom: 138px;
+}
+
+.hero-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .logo {
   font-size: 24px;
   font-weight: 900;
@@ -51,31 +61,31 @@ button {
 .header-links {
   width: 500px;
 }
-.hero {
-  background-color: #1f2937;
-  color: #f9faf8;
-  padding: 80px;
-  padding-top: 12px;
-}
-.hero-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-.hero-placeholder {
-  width: 500px;
-  height: 200px;
-  background-color: gray;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .hero-bottom {
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin-top: 80px;
 }
+
+.hero-placeholder {
+  width: 550px;
+  height: 250px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 2px;
+  border-radius: 4px;
+}
+
+.hero-placeholder img {
+  width: 100%;
+  height: 100%;
+}
+
 .header-text {
   display: flex;
   flex-direction: column;
@@ -100,7 +110,7 @@ button {
   justify-content: center;
   gap: 52px;
   height: 300px;
-  margin-bottom: 100px;
+  margin-bottom: 64px;
 }
 
 .info {
