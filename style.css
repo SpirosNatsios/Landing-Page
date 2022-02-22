@@ -24,6 +24,10 @@ h1 {
   font-weight: 1500;
 }
 
+h2 {
+  font-size: 36px;
+}
+
 a {
   text-decoration: none;
   color: #e5e7eb;
@@ -33,14 +37,14 @@ a {
 button {
   padding: 7px 24px;
   border-radius: 8px;
-  background: #3882f6;
-  border: 1px solid #3882f6;
+  border: 2px solid #e5e7eb;
+  background-color: #398525;
   color: white;
   font-weight: bold;
 }
 
 .hero {
-  background-color: #1f2937;
+  background-color: #398525;
   color: #f9faf8;
   padding: 80px;
   padding-top: 12px;
@@ -51,13 +55,23 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  gap: 40px;
 }
 
 .logo {
-  font-size: 24px;
+  font-size: px;
   font-weight: 900;
   width: 500px;
+  display: flex;
+  align-items: center;
+  font-family: "Rye", sans-serif;
 }
+
+.logo-pizza img {
+  width: 180px;
+  height: 100px;
+}
+
 .header-links {
   width: 500px;
 }
@@ -80,10 +94,14 @@ button {
   border: 2px;
   border-radius: 4px;
 }
-
+.square img,
 .hero-placeholder img {
   width: 100%;
   height: 100%;
+}
+
+.square img {
+  border-radius: 8px;
 }
 
 .header-text {
@@ -122,7 +140,7 @@ button {
 }
 
 .square {
-  border: 5px solid #3882f6;
+  border: 6px solid #398525;
   height: 165px;
   border-radius: 15px;
 }
@@ -163,7 +181,7 @@ button {
   align-items: center;
   justify-content: space-around;
   color: #e5e7eb;
-  background-color: #3882f6;
+  background-color: #398525;
   display: flex;
   border-radius: 5px;
   margin: 86px 0;
@@ -174,13 +192,9 @@ button {
   font-size: 20px;
 }
 
-.call-button button {
-  border: 2px solid #e5e7eb;
-}
-
 .footer {
   height: 82px;
-  background-color: #1f2937;
+  background-color: #398525;
   color: #e5e7eb;
   display: flex;
   align-items: center;
